@@ -1,0 +1,6 @@
+txt.txt
+*.o
+ecart_type
+.ccls/
+.cache/
+compile_commands.json
