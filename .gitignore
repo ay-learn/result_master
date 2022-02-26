@@ -1,6 +1,6 @@
 txt.txt
 *.o
-ecart_type
+result_master
 .ccls/
 .cache/
 compile_commands.json

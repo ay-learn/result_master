@@ -4,7 +4,7 @@
 # LDFLAGS=`pkg-config --libs gtk+-3.0`
 CFLAGS=-g
 
-all: ecart_type
+all: result_master
 
 
 util.o: util.c util.h
@@ -13,8 +13,8 @@ util.o: util.c util.h
 main.o: main.c
 	gcc -c main.c $(CFLAGS)
 
-ecart_type: main.o util.o
-	gcc main.o util.o -o ecart_type $(CFLAGS)
+result_master: main.o util.o
+	gcc main.o util.o -o result_master $(CFLAGS)
 
 clean:
-	rm -rf *.o ecart_type
+	rm -rf *.o result_master
